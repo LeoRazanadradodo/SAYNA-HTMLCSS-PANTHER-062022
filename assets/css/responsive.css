@@ -1,0 +1,557 @@
+@media only screen and (max-width: 1465px) {
+    .nav-social-fixed .line:last-of-type {
+        height: 150px;
+    }
+
+    .navbar {
+        font-size: 14px;
+    }
+       
+
+    .accueil .hero-banner .container .text {
+        width: 40%;
+        margin-left: 10%;
+    }
+    
+    .accueil .hero-banner .container .illustration {
+        width: 60%;
+    }
+
+    .accueil .hero-banner h1 {
+        font-size: 35px;
+    }
+
+    .hero-banner h2 {
+        font-size: 21px;
+    }
+
+    /* Design Slider */
+    .slider .container {
+        margin-top: 75px;
+        justify-content: center;
+        background: var(--bleu);
+    }
+
+    .slider .container .items:nth-child(3) {
+        display: none !important;
+    }
+
+    .slider .container .items:nth-child(2) .text {
+        display: none !important;
+    }
+
+    .slider .container .items .zoom {
+        display: flex;
+        align-items: center;
+    }
+
+    .slider .container .items .text {
+        padding: 15px 15px 0px;
+        width: 35vw;
+    }
+
+    .slider .container .items h2, .content article h2 {
+        font-size: 16px;
+    }
+
+    .slider .btn-next a {
+        background: var(--night);
+    }
+
+    /* Design Article & Sidebar */
+    .accueil .content {
+    display: flex;
+    flex-direction: column;
+    margin: 75px 10% 0px 10%;
+    }
+
+    .accueil .content article {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar .card {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .sidebar .card .text {
+        width: 50%;
+        padding: 30px 20px;
+    }
+
+    .sidebar .card .thumbnail {
+        width: 50%;
+    }
+
+    .sidebar > .thumbnail {
+        display: none;
+    }
+
+
+    /* Design Formulaire de contact */
+    .contact {
+        background: var(--night);
+        font-size: 14px;
+        padding: 75px 0px 100px;
+    }
+
+    .contact-form {
+        width: 80%;
+        padding: 70px 75px;
+    }
+
+    .contact .contact-form h2 {
+        font-size: 26px;
+    }
+
+    .contact input, .contact textarea {
+        color: var(--night);
+        margin-bottom: 13px;
+        font-family: 'Cantarell', sans-serif;
+    }
+
+    .contact::after {
+        display: none;
+    }
+
+    /* Design footer */
+
+    footer {
+        padding: 100px 0px 51px;
+    }
+
+    footer .container {
+        margin: 0px 10%;
+    }
+
+    .logo-bottom {
+        scale: 70%;
+    }
+
+    .logo-bottom:hover {
+        scale: 80%;
+    }
+
+    footer .text {
+        width: 60%;
+    }
+    .navbottom h2 {
+        letter-spacing: 5px;
+        font-size: 16px;
+    }
+
+    .navbottom .social .btn {
+        scale: 70%;
+    }
+
+    .navbottom .social .btn:hover {
+        scale: 80%;
+    }
+
+    /* Design page wakanda */
+
+.wakanda .hero-banner {
+    padding: 150px 0px;
+}
+
+.wakanda .hero-banner .text {
+    width: 60%;
+    margin-left: 10%;
+}
+
+.wakanda .hero-banner h1 {
+    font-size: 35px;
+}
+
+.wakanda .hero-banner h2 {
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+
+.wakanda .hero-banner p {
+    width: 305px;
+}
+
+.wakanda .content {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10%;
+}
+
+.wakanda .content .colonne {
+    width: 100%;
+}
+
+.wakanda .content h2 {
+    font-size: 16px;
+}
+
+.wakanda .content p {
+    padding-top: 10px;
+}
+
+.wakanda .content .video {
+    height: 350px;
+}
+
+
+/* Design page enigme */
+.enigme-page .hero-banner .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.enigme-page .hero-banner .container .illustration {
+    width: 40%;
+    opacity: 0.4;
+}
+
+.enigme-page .hero-banner .container .illustration img {
+    max-width: 100%;
+}
+
+.enigme-page .hero-banner h1 {
+    padding-top: 35px;
+    font-size: 34px;
+    line-height: 43px;
+    width: 332px;
+}
+
+.enigme-page .hero-banner .text {
+    width: 60%;
+}
+
+.letter-space {
+    letter-spacing: 3px;
+}
+
+.enigme-page .hero-banner p {
+    background: none;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    margin: 0;
+}
+
+.enigme-page .enigme, .enigme-page .transcription, .enigme-page .reponse {
+    margin: 0 10%;
+}
+
+.enigme-page .enigme {
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.enigme-page .transcription {
+    display: flex;
+    flex-direction: column;
+}
+
+.enigme-page .alpha {
+    margin-bottom: 50px;
+}
+
+.enigme-page .reponse form {
+    width: 100%;
+}
+
+}
+
+
+/* Responsive mobile */
+@media only screen and (max-width: 768px) {
+    .nav-social-fixed {
+        left: 2%;
+    }
+
+    .nav-social-fixed .line {
+        width: 2px;
+    }
+
+    .nav-social-fixed .social a:first-of-type {
+        margin-top: 7px;
+    }
+    
+    .nav-social-fixed .social a {
+        margin: 1px 2px;
+    }
+
+    .nav-social-fixed .social a:last-of-type {
+        margin-bottom: -10px;
+    }
+
+    .nav-social-fixed img {
+        scale: 70%;
+    }
+    .navbar {
+        padding: 20px 8% 20px;
+        font-size: 12px;
+        justify-content: space-between;
+    }
+    .logo-top {
+        position: relative;
+        width: 40%;
+        scale: 70%;
+        left: -15px;
+    }
+
+    .menu-top {
+        width: 60%;
+    }
+
+    .navbar .menu-top li {
+        margin: 0 10px;
+    }
+
+    .accueil .hero-banner .container {
+        display: block;
+        margin: 0;
+        position: relative;
+        padding: 50px 10% 0px;
+    }
+
+    .accueil .hero-banner .container .text {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        z-index: 100;
+    }
+
+    .accueil .hero-banner .container .illustration {
+        width: 70%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .accueil .hero-banner h1 {
+        font-size: 30px;
+    }
+    
+    .hero-banner h2 {
+        font-size: 18px;
+    }
+
+    /* Design Slider */
+    .slider .container {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .slider .container .items:first-of-type {
+        padding-left: 0px;
+    }
+
+    .slider .container .items:nth-child(3) {
+        display: none !important;
+    }
+
+    .slider .container .items:nth-child(2) {
+        display: none !important;
+    }
+
+    .slider .container .items .zoom {
+        display: flex;
+        align-items: center;
+    }
+
+    .slider .container .items .zoom img {
+        height: 240px;
+    }
+
+    .slider .container .items .text {
+        line-height: 18px;
+        padding: 15px 15px 0px;
+        width: 48vw;
+    }
+    
+    .slider .container .items h2, .content article h2 {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .slider .btn-next a {
+        position: relative;
+        right: -4px;
+    }
+
+    .accueil .content {
+        margin: 50px 10% 0px 10%;
+    }
+
+    .sidebar {
+        width: 100%;
+        display: block;
+    }
+
+    .sidebar .card {
+        display: block;
+    }
+
+    .sidebar .card .thumbnail {
+        width: 100%;
+    }
+
+    .sidebar .card .text {
+        width: 100%;
+    }
+
+    .sidebar .card .tchalla {
+        justify-content: space-around;
+    }
+
+    .sidebar .card .tchalla .btn {
+        padding: 4px 15px;
+    }
+
+    .contact-form {
+        padding: 30px 25px;
+        font-size: 13px;
+        border-radius: 30px;
+        background: var(--blanc);
+    }
+
+    .contact input, .contact textarea {
+        font-size: 12px;
+        padding: 10px 15px;
+        border-radius: 25px;
+    }
+
+    footer {
+        padding: 25px;
+    }
+
+    footer .container {
+        display: block;
+        margin: 0px 10%;
+    }
+
+    footer .text {
+        width: 100%;
+    }
+
+    footer .navbottom {
+        display: block;
+        text-align: center;
+    }
+
+    .navbottom h2 {
+        letter-spacing: 2px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .navbottom h2:last-of-type {
+        margin-top: 15px;
+    }
+
+    footer .credit {
+        margin-top: 25px;
+    }
+
+    .navbottom .social {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Design Wakanda */
+    .wakanda .hero-banner {
+        padding: 70px 0px;
+    }
+
+    .wakanda .hero-banner .text {
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .wakanda  .hero-banner h1 {
+        font-size: 25px;
+    }
+    
+    .wakanda .hero-banner h2 {
+        font-size: 25px;
+        margin: 10px 0px 20px;
+    }
+
+    .wakanda .hero-banner p {
+        width: 100%;
+    }
+
+    .wakanda .content .video {
+        height: 250px;
+    }
+
+    /* Design Enigme */
+    .enigme-page .hero-banner .container {
+        display: block;
+        margin: 0;
+        position: relative;
+        padding: 25px 10% 0px;
+    }
+
+    .enigme-page .hero-banner .container .text {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        z-index: 100;
+    }
+
+    .enigme-page .hero-banner .container .illustration {
+        width: 70%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .enigme-page .hero-banner h1 {
+        font-size: 30px;
+        padding-top: 0px;
+    }
+    
+    .enigme-page .hero-banner h2 {
+        font-size: 18px;
+    }
+
+    .enigme-page .hero-banner p {
+        background: none;
+        padding: 0 0 25px;
+    }
+
+    .enigme-page .enigme {
+        padding-top: 50px;
+    }
+
+    .enigme-page .enigme h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .enigme-page .enigme h2 br {
+        display: none;
+    }
+
+    .enigme-page .question {
+        background-size: cover;
+        padding: 25px;
+    }
+
+    .enigme-page .reponse {
+        margin: 25px 10%;
+    }
+
+    .enigme-page .reponse button {
+        margin: 30px auto;
+    }
+}
